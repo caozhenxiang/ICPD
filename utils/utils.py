@@ -63,7 +63,7 @@ def get_budget_and_ws(dataset):
     elif dataset == "bee":
         return 180, 15, 5
     elif dataset == "baby":
-        return 92, 20, 2
+        return 92, 15, 2
     elif dataset == "UCI":
         return 180, 8, 5
 
