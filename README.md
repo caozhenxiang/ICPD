@@ -1,7 +1,7 @@
 # ICPD
 ===============================
 
-Repository for developing the interactive algorithm for change point detection (CPD) task. More information can be found in the paper **An Interactive Algorithm for Change Point Detection**.
+Repository for developing the interactive algorithm for change point detection (CPD) task. More information can be found in the paper **A Semi-supervised Interactive Algorithm for Change Point Detection**.
 
 
 The authors of this paper are:
@@ -15,7 +15,7 @@ All authors are affiliated to [LEUVEN.AI - KU Leuven Institute for AI](https://a
 
 Abstract
 ------------
-The change point detection (CPD) task aims to localize the abrupt changes in time series, which reflects the transitions of properties or states in the underlying system. While many statistical and learning-based approaches have been proposed to carry out this task, most state-of-the-art methods still limit this problem to an unsupervised setting. Hence, the massive gap between the algorithm-detected result and the user-expected one is usually not neglectable. To bridge this gap, we apply an active-learning strategy to the CPD problem and combine it with the One-class support vector machine (OCSVM) model. As a result, a semi-supervised CPD algorithm that can interact with the queries from users is proposed in this paper. The exhausted experiment results on diverse simulated and real-life datasets present the benefits that the proposed algorithm is able to take the information about user-desired types of change into account: Impressive detection performance is achieved on both single- and multi-channel time series with a limited amount of queries.
+The goal of change point detection (CPD) is to localize abrupt changes in the statistics of signals or time series, which reflect the transitions of properties or states in the underlying system. While many statistical and learning-based approaches have been proposed to carry out this task, most state-of-the-art methods still treat this problem in an unsupervised setting. Therefore, there is often a large gap between the algorithm-detected results and the user-expected ones. To bridge this gap, we apply an active-learning strategy to the CPD problem and combine it with the one-class support vector machine (OCSVM) model, resulting in a semi-supervised CPD algorithm that improves itself by asking queries to the end-user. This allows to focus on the detection of those change points that are desired by the user and ignore false positives or irrelevant change points. Our experiment results on diverse simulated and real-life datasets demonstrate that a substantial improvement in detection performance is achieved on both single- and multi-channel time series with a limited amount of queries.
 
 Requirements
 ------------
